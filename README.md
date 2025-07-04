@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Eat Your Feelings
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Eat Your Feelings is a cross-platform mobile application built with [Expo](https://expo.dev) and React Native. The app leverages file-based routing and modern navigation patterns to deliver a smooth development and user experience.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Learn More](#learn-more)
+- [Community](#community)
+
+## Getting Started
+
+1. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the app**
 
    ```bash
-   npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+   This will launch the Expo development server. You can then open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - A development build
+   - Android emulator
+   - iOS simulator
+   - [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Available Scripts
 
-## Get a fresh project
+- `npm start` — Start the Expo development server.
+- `npm run android` — Open the app in an Android emulator.
+- `npm run ios` — Open the app in an iOS simulator.
+- `npm run web` — Run the app in a web browser.
+- `npm run lint` — Lint the project using Expo's ESLint config.
+- `npm test` — Run tests using Jest.
+- `npm run reset-project` — (If available) Resets the project to a blank state.
 
-When you're ready, run:
+## Project Structure
 
-```bash
-npm run reset-project
-```
+- `app/` — Main application code and screens (file-based routing).
+- `api/` — API utilities and types.
+- `assets/` — Fonts and images.
+- `components/` — Reusable UI components and tests.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Learn More
 
-## Learn more
+- [Expo documentation](https://docs.expo.dev/)
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
 
-To learn more about developing your project with Expo, look at the following resources:
+## Community
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Expo Discord](https://chat.expo.dev)
