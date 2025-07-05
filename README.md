@@ -7,8 +7,7 @@ Eat Your Feelings is a cross-platform mobile application built with [Expo](https
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)
-- [Learn More](#learn-more)
-- [Community](#community)
+- [Cut for Time](#cut-for-time)
 
 ## Getting Started
 
@@ -46,14 +45,16 @@ Eat Your Feelings is a cross-platform mobile application built with [Expo](https
 - `app/` — Main application code and screens (file-based routing).
 - `api/` — API utilities and types.
 - `assets/` — Fonts and images.
-- `components/` — Reusable UI components and tests.
+- `components/` — UI components for supporting the pages.
 
-## Learn More
+## Cut for Time
 
-- [Expo documentation](https://docs.expo.dev/)
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
+React native testing library currently has a version mismatch with React 19 and as a result,
+unit tests needing RNTL aren't working, and finding a woking version is certainly possible, but would
+likely take the entire time, so I've cut addressing that and left in a demo of what that file might look
+like to test UI structures.
 
-## Community
+I've also not fully fleshed out the test suites because of time, but I've integrated Jest and
+added a few basic tests to demonstrate what this project would look like with more time and to become production ready.
 
-- [Expo on GitHub](https://github.com/expo/expo)
-- [Expo Discord](https://chat.expo.dev)
+This has been tested in web and android. It very likely works in IOS as well, but hasn't been tested, so I can make guarantees about its performance.
